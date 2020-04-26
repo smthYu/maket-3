@@ -1,0 +1,121 @@
+.container {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.black_bg h2 {
+    color: #fede00;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: black
+}
+
+header a:active {
+    color: #fede00;
+}
+
+.navbar {
+    font-size: medium;
+}
+
+.nav-item {
+    background-color: #ffffff;
+}
+
+.nav-item:nth-child(1) {
+    font-size: 50px;
+}
+
+.nav-item:nth-child(1):hover {
+    background-color: black;
+}
+
+.nav-item:nth-child(even) {
+    background-color: #ececec;
+}
+
+.nav-item:hover {
+    background-color: #fede00;
+}
+
+.info_text {
+    background-color: #fff;
+}
+
+.yellow_bg {
+    background-color: #fede00;
+}
+
+.black_bg {
+    background-color: black;
+    color: #fff;
+}
+
+.btn-secondary {
+    font-size: small;
+}
+
+.btn-secondary:hover {
+    color: #fede00;
+    text-decoration: underline;
+}
+
+.btn-secondary:visited {
+    color: #fff;
+}
+
+.info_text img {
+    border-radius: 100%;
+    width: 70%;
+}
+
+.btn-group-vertical {
+    background-color: black;
+}
+
+.btn-group-vertical button {
+    background-color: black;
+    color: #fff;
+    border-color: #8e8e8e;
+    font-size: calc( (100vw - 320px)/(1920 - 320) * (14 - 10) + 10px);
+}
+
+.btn-group-vertical button:hover {
+    background-color: #fede00;
+    color: #000000;
+}
+
+.btn-group-vertical button:focus {
+    background-color: black;
+    color: #8e8e8e;
+    border-color: #8e8e8e;
+}
+
+.btn-group-vertical button:active:hover {
+    background: black;
+    color: #fff;
+}
+
+footer {
+    background-color: #fff;
+    color: #8e8e8e;
+}
+
+footer a {
+    color: #8e8e8e;
+}
+
+footer a:hover {
+    color: black;
+}
