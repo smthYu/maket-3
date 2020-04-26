@@ -85,14 +85,11 @@
                                                     .info_text {
                                                         padding: 10px;
                                                         text-align: center;
-                                                        position: relative;
+                                                        display: flex;
                                                     }
                                                     
                                                     .center_text {
-                                                        margin: 0;
-                                                        position: absolute;
-                                                        top: 50%;
-                                                        transform: translate(0, -50%);
+                                                        margin: auto;
                                                     }
                                                     
                                                     .btn-secondary {
