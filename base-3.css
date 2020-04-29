@@ -1,9 +1,10 @@
                                                     body {
                                                         background-image: url(bg.jpg);
+                                                       background-attachment: fixed;
                                                     }
                                                     
                                                     .container {
-                                                        width: 70%;
+                                                        
                                                         text-align: center;
                                                         vertical-align: center;
                                                         
