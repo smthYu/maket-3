@@ -127,6 +127,10 @@
         padding: 0;
         margin: 0;
     }
+
+#large-hit {
+        display: block;
+    }
     
     @media screen and (max-width: 550px) {
         .nav-item a {
