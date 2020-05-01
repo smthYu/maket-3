@@ -122,13 +122,16 @@
     
     footer img {
         display: inline-block;
-        float: right;
-        width: 5%;
+		width: 100%;
         padding: 0;
         margin: 0;
     }
-    
-    #large-hit {
+	footer .link{
+		float: right;
+        width: 5%;
+	}
+
+#large-hit {
         display: block;
     }
     
@@ -153,8 +156,11 @@
         }
         footer img {
             display: inline-block;
-            width: 10%;
+            
         }
+		footer .link{
+			width: 10%;
+		}
         .info_text {
             padding: 3%;
         }
