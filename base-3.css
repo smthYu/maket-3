@@ -36,6 +36,7 @@
     .nav-item a {
         display: block;
         padding-top: 30%;
+	height: 100%;
     }
     
     .carousel-inner {
